@@ -1,0 +1,11 @@
+User                   (@Data lambok) 
+
+UserService            (interface)
+
+UserController         (RestController)
+
+UserServiceImpl        (RequestMapping)
+
+UserNotFoundException                         (server display response)
+
+GlobalExceptionHandler (RestControllerAdvice) (client display response) 
