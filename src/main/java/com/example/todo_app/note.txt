@@ -9,3 +9,5 @@ UserServiceImpl        (RequestMapping)
 UserNotFoundException                         (server display response)
 
 GlobalExceptionHandler (RestControllerAdvice) (client display response) 
+
+./mvnw.cmd clean spring-boot:run

@@ -36,7 +36,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User update(Long id, User user) {
         User existing = getById(id);  // tự throw nếu không có
-        existing.setTen(user.getTen());
+        existing.setName(user.getName());
         existing.setEmail(user.getEmail());
         return existing;
     }
